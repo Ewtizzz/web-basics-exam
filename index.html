@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Полиглот - языковая школа</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg bg-brand sticky-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="index.html">
+        <img src="images/logo.svg" width="36" height="36" alt="Логотип школы Полиглот">
+        Полиглот
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+              aria-controls="navbar" aria-expanded="false" aria-label="Показать меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#courses">Курсы</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tutors">Репетиторы</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">О школе</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning btn-sm px-3" href="account.html">Личный кабинет</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <div class="notifications" aria-live="polite"></div>
+  </div>
+
+  <header class="hero text-white py-5">
+    <div class="container py-lg-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold mb-3">Языковая школа «Полиглот»</h1>
+          <p class="fs-5 mb-4">
+            Семь языков, преподаватели-носители и живая практика с первого занятия.
+            Групповые курсы, индивидуальные уроки с репетитором и подготовка
+            к международным экзаменам - офлайн в Москве и онлайн из любой точки мира.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn btn-warning btn-lg px-4" href="#courses">Выбрать курс</a>
+            <a class="btn btn-outline-light btn-lg px-4" href="#tutors">Найти репетитора</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="row row-cols-2 g-3">
+            <div class="col">
+              <div class="hero-figure rounded-4 p-3 h-100">
+                <p class="display-6 fw-bold mb-0">7</p>
+                <p class="mb-0">языков в программе</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="hero-figure rounded-4 p-3 h-100">
+                <p class="display-6 fw-bold mb-0">12</p>
+                <p class="mb-0">человек в группе максимум</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="hero-figure rounded-4 p-3 h-100">
+                <p class="display-6 fw-bold mb-0">18</p>
+                <p class="mb-0">лет работы школы</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="hero-figure rounded-4 p-3 h-100">
+                <p class="display-6 fw-bold mb-0">94%</p>
+                <p class="mb-0">доходят до конца курса</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow-1">
+    <section class="py-5" id="about">
+      <div class="container">
+        <h2 class="fw-bold mb-3">О школе</h2>
+        <p class="fs-5 text-secondary mb-5">
+          Наша миссия - сделать так, чтобы иностранный язык перестал быть школьным предметом
+          и стал рабочим инструментом. Мы не заставляем зубрить списки слов: на занятиях
+          студенты сразу говорят, спорят, готовят презентации и разбирают настоящие тексты.
+          Каждая группа собирается по результатам входного тестирования, поэтому в ней
+          оказываются люди одного уровня и близких целей.
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-bold">Групповые курсы</h3>
+                <p class="card-text text-secondary mb-0">
+                  Программы от начального до продвинутого уровня продолжительностью
+                  от шести недель. Расписание известно заранее, пропущенное занятие
+                  можно отработать с преподавателем.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-bold">Занятия с репетитором</h3>
+                <p class="card-text text-secondary mb-0">
+                  Индивидуальный план под конкретную задачу: собеседование, переезд,
+                  переговоры с заказчиком. Время занятий вы выбираете сами.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-bold">Подготовка к экзаменам</h3>
+                <p class="card-text text-secondary mb-0">
+                  IELTS, TOEFL, DELE, DELF и Goethe-Zertifikat. Разбираем формат,
+                  пишем пробные работы и считаем баллы по официальным критериям.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light" id="advantages">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Преимущества изучения иностранного языка</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">01</div>
+              <div>
+                <h3 class="h5 fw-bold">Работа за рубежом</h3>
+                <p class="text-secondary mb-0">
+                  Вакансии международных компаний открываются раньше и оплачиваются выше,
+                  если в резюме подтверждён уровень языка.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">02</div>
+              <div>
+                <h3 class="h5 fw-bold">Доступ к источникам</h3>
+                <p class="text-secondary mb-0">
+                  Документация, исследования и профессиональные сообщества чаще всего
+                  существуют только в оригинале и без перевода.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">03</div>
+              <div>
+                <h3 class="h5 fw-bold">Учёба за границей</h3>
+                <p class="text-secondary mb-0">
+                  Сертификат международного образца входит в обязательный пакет документов
+                  почти любого зарубежного университета.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">04</div>
+              <div>
+                <h3 class="h5 fw-bold">Тренировка памяти</h3>
+                <p class="text-secondary mb-0">
+                  Регулярные занятия языком нагружают память и внимание не хуже,
+                  чем решение задач, и заметно дольше сохраняют их с возрастом.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">05</div>
+              <div>
+                <h3 class="h5 fw-bold">Путешествия без посредников</h3>
+                <p class="text-secondary mb-0">
+                  Разговор с местными жителями меняет поездку сильнее, чем любой
+                  путеводитель или экскурсия по расписанию.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex gap-3">
+              <div class="advantage-icon rounded-3 d-flex align-items-center justify-content-center fw-bold flex-shrink-0">06</div>
+              <div>
+                <h3 class="h5 fw-bold">Понимание культуры</h3>
+                <p class="text-secondary mb-0">
+                  Фильмы, книги и юмор перестают требовать сносок, когда язык
+                  знаком вместе с контекстом, в котором он живёт.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="courses">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Предлагаемые курсы</h2>
+
+        <form class="row g-3 align-items-end mb-4 courses-search">
+          <div class="col-12 col-md-5">
+            <label class="form-label" for="course-name">Название курса</label>
+            <input class="form-control" type="search" id="course-name" name="name" placeholder="Например, Spanish">
+          </div>
+          <div class="col-12 col-md-4">
+            <label class="form-label" for="course-level">Уровень</label>
+            <select class="form-select" id="course-level" name="level">
+              <option value="">Любой</option>
+              <option value="Beginner">Начальный</option>
+              <option value="Intermediate">Средний</option>
+              <option value="Advanced">Продвинутый</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-3">
+            <button class="btn btn-outline-secondary w-100" type="reset">Сбросить</button>
+          </div>
+        </form>
+
+        <div class="table-responsive">
+          <table class="table table-hover align-middle">
+            <thead>
+              <tr>
+                <th scope="col">Название</th>
+                <th scope="col">Уровень</th>
+                <th scope="col">Преподаватель</th>
+                <th scope="col">Длительность</th>
+                <th scope="col">Стоимость</th>
+                <th scope="col">Действия</th>
+              </tr>
+            </thead>
+            <tbody class="courses-body"></tbody>
+          </table>
+        </div>
+
+        <p class="courses-empty text-secondary d-none">По заданным условиям курсы не найдены.</p>
+
+        <nav aria-label="Страницы списка курсов">
+          <ul class="pagination courses-pagination"></ul>
+        </nav>
+
+        <div class="course-details card border-0 shadow-sm mt-3 d-none">
+          <div class="card-body p-4"></div>
+        </div>
+
+        <div class="mt-4">
+          <button class="btn btn-primary btn-lg px-4 course-order" type="button" disabled>Подать заявку на курс</button>
+          <span class="text-secondary ms-2 course-hint">Выберите курс в таблице</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light" id="tutors">
+      <div class="container">
+        <h2 class="fw-bold mb-2">Репетиторы</h2>
+        <p class="text-secondary tutors-note">Показаны все репетиторы школы.</p>
+
+        <form class="row g-3 align-items-end mb-4 tutors-search">
+          <div class="col-12 col-md-4">
+            <label class="form-label" for="tutor-language">Предлагаемые языки</label>
+            <select class="form-select" id="tutor-language" name="language">
+              <option value="">Любой</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-4">
+            <label class="form-label" for="tutor-level">Уровень языка</label>
+            <select class="form-select" id="tutor-level" name="level">
+              <option value="">Любой</option>
+              <option value="Beginner">Начальный</option>
+              <option value="Intermediate">Средний</option>
+              <option value="Advanced">Продвинутый</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-2">
+            <label class="form-label" for="tutor-experience">Опыт, лет от</label>
+            <input class="form-control" type="number" id="tutor-experience" name="experience" min="0" max="50" step="1">
+          </div>
+          <div class="col-12 col-md-2">
+            <button class="btn btn-outline-secondary w-100" type="reset">Сбросить</button>
+          </div>
+        </form>
+
+        <div class="table-responsive">
+          <table class="table table-hover align-middle bg-white">
+            <thead>
+              <tr>
+                <th scope="col">Фото</th>
+                <th scope="col">Имя</th>
+                <th scope="col">Уровень</th>
+                <th scope="col">Преподаёт</th>
+                <th scope="col">Владеет</th>
+                <th scope="col">Опыт</th>
+                <th scope="col">Ставка</th>
+                <th scope="col">Действия</th>
+              </tr>
+            </thead>
+            <tbody class="tutors-body"></tbody>
+          </table>
+        </div>
+
+        <p class="tutors-empty text-secondary d-none">По заданным условиям репетиторы не найдены.</p>
+
+        <div class="mt-4">
+          <button class="btn btn-primary btn-lg px-4 tutor-order" type="button" disabled>Подать заявку на занятие</button>
+          <span class="text-secondary ms-2 tutor-hint">Выберите репетитора в таблице</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-5" id="contacts">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-4">
+          <p class="d-flex align-items-center gap-2 fw-bold fs-5 mb-3">
+            <img src="images/logo.svg" width="32" height="32" alt="">
+            Полиглот
+          </p>
+          <p class="text-white-50 mb-0">
+            Языковая школа для взрослых и студентов.
+            Занятия в центре Москвы и онлайн.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="h6 fw-bold text-uppercase mb-3">Контакты</h2>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">Москва, ул. Большая Семёновская, 38</li>
+            <li class="mb-2"><a class="link-light" href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li class="mb-2"><a class="link-light" href="mailto:info@poliglot-school.ru">info@poliglot-school.ru</a></li>
+            <li>Пн–Вс, с 9:00 до 21:00</li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h2 class="h6 fw-bold text-uppercase mb-3">Полезные ссылки</h2>
+          <ul class="list-unstyled mb-3">
+            <li class="mb-2"><a class="link-light" href="#courses">Расписание курсов</a></li>
+            <li class="mb-2"><a class="link-light" href="#tutors">Подбор репетитора</a></li>
+            <li class="mb-2"><a class="link-light" href="account.html">Мои заявки</a></li>
+            <li><a class="link-light" href="#about">Как проходит обучение</a></li>
+          </ul>
+          <p class="mb-2 text-white-50">Мы в социальных сетях</p>
+          <ul class="list-unstyled list-inline mb-0">
+            <li class="list-inline-item"><a class="link-light" href="https://vk.com">ВКонтакте</a></li>
+            <li class="list-inline-item"><a class="link-light" href="https://t.me">Telegram</a></li>
+            <li class="list-inline-item"><a class="link-light" href="https://youtube.com">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade order-modal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="order-modal-title">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 order-form__title" id="order-modal-title">Оформление заявки</h2>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <form class="order-form" novalidate>
+          <div class="modal-body order-form__body"></div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" type="button" data-bs-dismiss="modal">Отмена</button>
+            <button class="btn btn-primary order-form__submit" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/order-form.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
