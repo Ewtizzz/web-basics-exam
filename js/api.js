@@ -1,5 +1,5 @@
 const API_URL = 'https://web-basics-exam-gagashaggy.amvera.io/api';
-const API_KEY = '877c79f4-2430-45a1-ac3c-c74ff5ff993a';
+const API_KEY = '7878941a-af5e-4e2c-86f0-4d8c4dc70ba4';
 
 async function sendRequest(path, method, body) {
   const options = { method: method };
